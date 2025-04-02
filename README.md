@@ -1,17 +1,18 @@
-# README - Projet text-Generation
 
-## Description  
-Ce projet vise à générer des textes alternatifs (alt text) pour améliorer l’accessibilité des personnes aveugles ou malvoyantes. Il compare les modèles **BLIP**, **BLIP + Contexte**, et **FuseCap**, évalués avec des métriques comme BLEU, ROUGE, et METEOR.
+# 📄 README - Projet de Génération de Texte
 
-## Objectifs  
-- Charger et analyser le jeu de données AD2AT.  
-- Tester différentes méthodes et contextes pour la génération de textes.  
-- Comparer les performances des modèles.  
+## 🧠 Description  
+Ce projet a pour objectif de générer des descriptions alternatives (alt text) afin d'améliorer l’accessibilité pour les personnes aveugles ou malvoyantes. Il évalue et compare les performances des modèles **BLIP**, **BLIP + Contexte** et **FuseCap**, en utilisant des métriques d’évaluation telles que **BLEU**, **ROUGE** et **METEOR**.
 
-## Données  
-Descriptions alternatives multilingues issues du film *"What Happens While"*, enrichies d’annotations contextuelles.
+## 🎯 Objectifs  
+- 📥 Charger et analyser le jeu de données **AD2AT**  
+- 🧪 Tester différentes méthodes de génération, avec ou sans contexte  
+- 📊 Comparer les performances des modèles  
 
-## Résultats  
-- **BLIP** : Performances équilibrées.  
-- **BLIP + Contexte** : Contexte encore mal exploité.  
-- **FuseCap** : Excellente fluidité des descriptions.  
+## 🗂️ Données  
+Le corpus utilisé contient des descriptions alternatives multilingues extraites du film *"What Happens While"*, enrichies par des annotations contextuelles.
+
+## 📈 Résultats  
+- 🔹 **BLIP** : Performances globalement équilibrées  
+- 🔸 **BLIP + Contexte** : Le contexte reste sous-exploité  
+- 🌟 **FuseCap** : Très bonne fluidité et qualité des descriptions  
