@@ -1,5 +1,5 @@
 
-# 📄 README - Projet de Génération de Texte
+# 📄 Projet de Génération de Texte
 
 ## 🧠 Description  
 Ce projet a pour objectif de générer des descriptions alternatives (alt text) afin d'améliorer l’accessibilité pour les personnes aveugles ou malvoyantes. Il évalue et compare les performances des modèles **BLIP**, **BLIP + Contexte** et **FuseCap**, en utilisant des métriques d’évaluation telles que **BLEU**, **ROUGE** et **METEOR**.
